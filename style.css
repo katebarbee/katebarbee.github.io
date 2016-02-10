@@ -1,0 +1,55 @@
+/* Media queries */
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) { 
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+}
+
+/* Portrait phones and smaller */
+@media only screen and (max-device-width: 480px) {
+    
+   
+}
+
+html{
+    -webkit-text-size-adjust:100%;
+}
+
+body{ margin:0;
+
+}
+
+body {
+    background: #FFFFFF;
+}
+
+h2{ 
+    position: absolute;
+    margin-top: 10px;
+}
+    
+
+.container-fluid{
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    background-color: #F0F0F0;
+   
+
+}
+
